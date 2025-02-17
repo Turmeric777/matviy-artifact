@@ -14,6 +14,13 @@
             background-size: cover;
             text-align: center;
         }
+        .banner {
+            background: #ff6600;
+            color: white;
+            padding: 15px;
+            font-size: 22px;
+            font-weight: bold;
+        }
         .container {
             max-width: 800px;
             margin: 50px auto;
@@ -78,6 +85,25 @@
             transform: scale(1.05);
             background: #125ec7;
         }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .contact-form h2 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 15px;
+        }
         .contact-form a {
             display: inline-block;
             padding: 12px 24px;
@@ -86,7 +112,7 @@
             background: #007BFF;
             text-decoration: none;
             border-radius: 5px;
-            cursor: pointer;
+            transition: background 0.3s;
         }
         .contact-form a:hover {
             background: #0056b3;
@@ -94,11 +120,14 @@
     </style>
 </head>
 <body>
+    <div class="banner">Ціну знижено!</div>
     <div class="container">
         <img src="book-cover.png" alt="Обкладинка книги Матвій і Артефакт з Майнкрафту">
         <h1>Матвій і Артефакт з Майнкрафту</h1>
-        <p><strong>Пригодницька історія про 11-річного хлопчика Матвія, який знаходить загадковий Артефакт у грі Minecraft. Як це вплине на його життя? Чи зможе він повернутися до реального світу?</strong></p>
+        <p><strong>Пригодницька історія про хлопчика Матвія, який знаходить загадковий Артефакт у грі Minecraft. Як це вплине на його життя? Чи зможе він повернутися до реального світу?</strong></p>
         <p>Життя 11-річного Матвія круто змінюється, коли він знаходить загадковий Артефакт у грі Minecraft. Але це не просто блок — це щось значно більше. Не встигнувши збагнути, що саме він виявив, Матвій стикається з таємничими силами, які починають стежити за ним у реальному житті. Перед ним відкривається новий світ можливостей: Артефакт дає йому неймовірні здібності, але з ними приходять і небезпеки.</p>
+        <p>Тепер Матвію потрібно прийняти рішення: як використовувати свої нові здібності? Чи може він стати героєм, як у його улюблених іграх? Чи йому доведеться сховатися, щоб врятувати себе і свою сім’ю від небезпечних людей, які прагнуть заволодіти Артефактом?</p>
+        <p><em>Книга поєднує динамічний сюжет, гумор і реальні проблеми підлітків. Підходить для шанувальників фантастики, пригод та історій про геймерів.</em></p>
         <div class="buy-buttons">
             <a href="https://www.amazon.es/dp/B0DVLV6995" class="buy-button">Купити на Amazon (Іспанія)</a>
             <a href="https://www.amazon.com/dp/B0DVLV6995" class="buy-button">Купити на Amazon (США)</a>
@@ -119,6 +148,7 @@
     </div>
 </body>
 </html>
+
 
 
 
